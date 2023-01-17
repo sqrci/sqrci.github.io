@@ -17,3 +17,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: actions/jekyll-build-pages@v1.0.6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
