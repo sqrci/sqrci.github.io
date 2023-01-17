@@ -1,21 +1,28 @@
 # site settings
 title: SqrCi
-subtitle: by HTML5 UP
+subtitle:
 email: info@sqrci.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/" # the subpath of your site, e.g. /blog
+description: We provide digital solutions, strategies, and analysis to equip our partners with tailored, well-thought-out solutions that work for their target audiences.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: USA
-phone: (716) 555-5555
+street_address: 135 W 41st
+city: New York
+state: NY
+zip_code: 10036
+country:
+phone: +1 (917) 284-8131
+
+formspree_id: 'mjvdkwbb'
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
+
+html_pages:
+- services.md
+- generic.md
+- landing.md
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -26,10 +33,10 @@ socials:
   #GitLab:
   #Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
   #Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  #LinkedIn: https://www.linkedin.com/company/sqrci/
+  #Twitter: 
+  #Facebook:
+  #Slack:
 
 # build settings
 markdown: kramdown
@@ -42,3 +49,6 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- elements.md
+- generic.md
+- landing.md

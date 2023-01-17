@@ -60,6 +60,11 @@
 					background-color: desaturate(darken(_palette(highlight), 15), 5);
 				}
 			}
+
+			img {
+				max-width: 75px;
+				vertical-align: middle;
+			}
 		}
 
 		nav {
